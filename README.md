@@ -38,7 +38,9 @@ curl -H "Authorization: Token your-auth-token" http://localhost:8000/api/vendors
 - `/api/auth/users/`: User registration endpoint.
 - `/api/auth/token/login/`: Obtain authentication token endpoint.
 - `/api/vendors/`: Vendors management endpoint.
+- `/api/vendors/<id>/performance`: Vendors performance endpoint.
 - `/api/purchase_orders/`: Purchase orders management endpoint.
+- `/api/purchase_orders/<1>/acknowledge/`: Purchase orders acknowledge  endpoint.
 
 ## Run Unit Test
 - run `docker exec -it <container id> bash`
