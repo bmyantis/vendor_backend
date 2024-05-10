@@ -12,7 +12,7 @@ This is a vendor management app built with Django and Docker. It allows users to
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/bmyantis/vendor-backend.git
+   git clone https://github.com/bmyantis/vendor_backend.git
    cd vendor-management-app
 2. **Build the Docker image:**
     docker-compose build
